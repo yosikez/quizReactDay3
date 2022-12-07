@@ -1,0 +1,16 @@
+.outer {
+  border-radius: 10px;
+  background-color: #349de2;
+  padding: 10px;
+}
+
+.w {
+  border-radius: 10px;
+  background-color: white;
+  padding: 5px;
+  margin: 0;
+}
+.w p {
+  font-size: 18px;
+  color: black;
+}

@@ -1,0 +1,21 @@
+.Form-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: #349de2;
+
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.Form-wrap input,
+textarea,
+button {
+  border: 0;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.message {
+  margin: 0;
+}

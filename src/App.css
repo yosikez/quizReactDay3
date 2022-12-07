@@ -9,7 +9,7 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: App-logo-spin infinite 0.2s linear;
   }
 }
 
@@ -27,7 +27,54 @@
 .App-link {
   color: #61dafb;
 }
+.card {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 10px;
+  margin: 10px;
+}
 
+.delete {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: #349de2;
+
+  padding-top: 55px;
+  padding-inline: 30px;
+  border-radius: 10px;
+  height: 47%;
+}
+
+.delete input {
+  border: 0;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.wrap {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 100%;
+}
+
+.form {
+  padding: 10px;
+  gap: 10px;
+}
+
+h2 {
+  background-color: #349de2;
+  border-radius: 10px;
+  margin-inline: 30%;
+  padding: 5px;
+}
+
+.get {
+  width: 30%;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
